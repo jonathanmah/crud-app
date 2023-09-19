@@ -1,0 +1,7 @@
+.centered-header {
+  background: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-top: 20px;
+}

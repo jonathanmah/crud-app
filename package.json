@@ -1,0 +1,20 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && go run server.go",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \" cd server && go run server.go\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.1",
+    "concurrently": "^8.2.0",
+    "react-router-dom": "^6.15.0"
+  }
+}
